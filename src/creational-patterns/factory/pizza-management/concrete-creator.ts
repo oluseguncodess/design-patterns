@@ -1,6 +1,6 @@
 import { MargheritaPizza, PepperoniPizza } from "./concrete-product-pizza";
 import { PizzaStore } from "./creator-pizza";
-import { Pizza } from "./product-pizza";
+import { type Pizza } from "./product-pizza";
 
 export class NYPizzaStore extends PizzaStore {
   protected createPizza(type: string): Pizza {

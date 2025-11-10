@@ -1,4 +1,4 @@
-import { Pizza } from "./product-pizza";
+import {type  Pizza } from "./product-pizza";
 
 export class MargheritaPizza implements Pizza {
   getName(): string {
